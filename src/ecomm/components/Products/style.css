@@ -1,0 +1,85 @@
+  select {
+    background:  rgb(247, 202, 201);
+    background: linear-gradient(135deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+    color: black;
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    box-shadow: 0 5px 25px rgba(180, 33, 33, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  .containerz {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+  input {
+    background:  rgb(247, 202, 201);
+    background: linear-gradient(135deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+    color: black;
+    box-shadow: 0 5px 25px rgba(180, 33, 33, 0.2);
+  }
+
+  option {
+    box-shadow: 0 5px 25px rgba(180, 33, 33, 0.2);
+  }
+
+.searchInput {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.searchInput input {
+    border: 1px solid #520237;
+    border-radius: 50px;
+    margin-left: 8px;
+    height: 34px;
+    width: 75%;
+    padding: 0px 25px 0px 10px;
+    transition: all .6s ease;
+}
+
+.selectioncat{
+    height: 34px;
+}
+
+.searchInput label {
+    color: #2b0202;
+    font-weight: normal;
+}
+.searchInput input:placeholder-shown {
+    width: 12%;
+}
+.searchInput:hover input:placeholder-shown {
+    width: 75%;
+    cursor: pointer;
+}
+
+.heroecomm {
+  max-height: 300px;
+}
+
+
+#products {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#products .contents:nth-child(even) {
+    padding-bottom: 20px;
+    background-color:seashell;}
+
+ #products .contents:nth-child(odd) {
+     padding-bottom: 20px;
+    background-color:rgb(161, 171, 182);}
+    
+
+#products .contents .headline {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

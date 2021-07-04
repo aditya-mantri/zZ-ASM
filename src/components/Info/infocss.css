@@ -1,0 +1,8 @@
+.alpha img:hover {
+    animation-name: shake-slow;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+  }
+
+

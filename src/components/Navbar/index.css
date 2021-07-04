@@ -1,0 +1,6 @@
+.beta img {
+    animation-name: shake-slow;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+  }
